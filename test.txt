@@ -6,6 +6,9 @@ int main(void)
 	printf("hello\n");
 	printf("world!\n");
 	sub();
+	double x = 10; 
+	x = log10(x);
+	printf("%f\n",x);
 	return 0;
 }
 
