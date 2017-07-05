@@ -13,5 +13,13 @@ int sub()
 {
 	printf("this is first commit\n");
 	printf("this is second commit\n");
+
+	int i=0;
+	double ret = 0.0;
+	for(i=0;i<1000;i++){
+		ret += pow(-1,i) / (2 * i + 1);
+	}
+	ret *= 4;
+	printf("%f\n",ret)
 	return 0;
 }
