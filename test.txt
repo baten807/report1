@@ -2,7 +2,9 @@
 
 int main(void)
 {
+
 	printf("hello\n");
+	printf("world!\n");
 	sub();
 	return 0;
 }
@@ -10,5 +12,6 @@ int main(void)
 int sub()
 {
 	printf("this is first commit\n");
+	printf("this is second commit\n");
 	return 0;
 }
