@@ -2,13 +2,13 @@
 
 int main(void)
 {
-	printf("hello");
+	printf("hello\n");
 	sub();
 	return 0;
 }
 
 int sub()
 {
-	printf("world!\n");
+	printf("this is first commit\n");
 	return 0;
 }
